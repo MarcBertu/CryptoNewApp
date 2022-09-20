@@ -12,7 +12,9 @@ struct CryptoNewAppApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                FirstLaunchView()
+            }
         }
     }
 }

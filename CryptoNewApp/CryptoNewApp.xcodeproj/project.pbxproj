@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		990849E728D9E4930094AF80 /* ColorCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990849E628D9E4930094AF80 /* ColorCustom.swift */; };
+		990849EA28D9F40E0094AF80 /* FirstLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990849E928D9F40E0094AF80 /* FirstLaunchView.swift */; };
 		AD4495B528B8ECCD00EAE409 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4495B428B8ECCD00EAE409 /* ContentView.swift */; };
 		AD4495B728B8ED2200EAE409 /* MarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4495B628B8ED2200EAE409 /* MarketView.swift */; };
 		AD4495B928B8EDF900EAE409 /* MarketItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4495B828B8EDF900EAE409 /* MarketItemRowView.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		990849E628D9E4930094AF80 /* ColorCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCustom.swift; sourceTree = "<group>"; };
+		990849E928D9F40E0094AF80 /* FirstLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLaunchView.swift; sourceTree = "<group>"; };
 		AD4495B428B8ECCD00EAE409 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD4495B628B8ED2200EAE409 /* MarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketView.swift; sourceTree = "<group>"; };
 		AD4495B828B8EDF900EAE409 /* MarketItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketItemRowView.swift; sourceTree = "<group>"; };
@@ -42,6 +46,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		990849E528D9E46D0094AF80 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				990849E628D9E4930094AF80 /* ColorCustom.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		990849E828D9F3CF0094AF80 /* FirstLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				990849E928D9F40E0094AF80 /* FirstLaunchView.swift */,
+			);
+			path = FirstLaunch;
+			sourceTree = "<group>";
+		};
 		AD410DD128B6251500B696E6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +73,7 @@
 		AD410DD228B6251C00B696E6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				990849E828D9F3CF0094AF80 /* FirstLaunch */,
 				AD4495C028B8F51800EAE409 /* Home */,
 				AD4495BF28B8F50F00EAE409 /* Favorites */,
 				AD4495BE28B8F50700EAE409 /* Market */,
@@ -112,6 +133,7 @@
 		ADF47E9F28B62445008125A1 /* CryptoNewApp */ = {
 			isa = PBXGroup;
 			children = (
+				990849E528D9E46D0094AF80 /* Assets */,
 				AD410DD328B6252200B696E6 /* ViewModels */,
 				AD410DD228B6251C00B696E6 /* Views */,
 				AD410DD128B6251500B696E6 /* Models */,
@@ -200,12 +222,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				990849EA28D9F40E0094AF80 /* FirstLaunchView.swift in Sources */,
 				AD4495BB28B8EFFE00EAE409 /* MarketItem.swift in Sources */,
 				AD4495BD28B8F39400EAE409 /* MarketItemDetail.swift in Sources */,
 				AD4495B928B8EDF900EAE409 /* MarketItemRowView.swift in Sources */,
 				AD4495B528B8ECCD00EAE409 /* ContentView.swift in Sources */,
 				AD4495C528B8F60000EAE409 /* FavoritesView.swift in Sources */,
 				ADF47EA128B62445008125A1 /* CryptoNewAppApp.swift in Sources */,
+				990849E728D9E4930094AF80 /* ColorCustom.swift in Sources */,
 				AD4495B728B8ED2200EAE409 /* MarketView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
