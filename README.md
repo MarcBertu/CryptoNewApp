@@ -1,4 +1,7 @@
 # CryptoNewApp
+
+Status : ⏳ On going
+
 Swift app to preview the market of the cryptocurrency
 
 The app is built in SwiftUI and use an cryptocurrency API named CoinAPI.
