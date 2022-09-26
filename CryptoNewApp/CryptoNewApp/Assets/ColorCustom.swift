@@ -11,4 +11,5 @@ import SwiftUI
 struct ColorCustom {
     
     static let backgroundColor = Color("backgroundColor")
+    static let backgroundGrey = Color("backgroundGrey")
 }

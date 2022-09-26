@@ -31,7 +31,7 @@ struct FirstLaunchView: View {
                 Spacer()
                 
                 VStack(alignment: .leading) {
-                    VStack(alignment: .leading) {
+                    VStack(alignment: .leading, spacing: 10) {
                         Text("Easy Way to \nInvest in Crypto")
                             .bold()
                             .foregroundColor(.white)
@@ -39,10 +39,10 @@ struct FirstLaunchView: View {
                         
                         Text("A new way to manage and trade all your crypto easily and fastest in the market")
                             .font(.system(size: 16))
-                            .offset(x:0, y: 10)
+                            .foregroundColor(.black.opacity(0.8))
                     }
                     
-                    NavigationLink(destination: MarketView(), label: {
+                    NavigationLink(destination: HomeView(), label: {
                         ZStack {
                             Image(systemName: "arrow.forward")
                                 .resizable()
@@ -55,7 +55,6 @@ struct FirstLaunchView: View {
                         }
 
                     })
-                    .offset(x:0, y: 20)
                 }
                 .padding(EdgeInsets(top: 0, leading: 50, bottom: 0, trailing: 50))
                 .offset(x: 0, y: -50)

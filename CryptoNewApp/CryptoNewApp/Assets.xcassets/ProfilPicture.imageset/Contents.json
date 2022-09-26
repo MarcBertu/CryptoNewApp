@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "stunning-young-woman-with-beautiful-smile-enjoying-spring-day-outdoor-shot-refined-brunette-girl-trendy-attire-walking-down-street-laughing 1.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
